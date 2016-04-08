@@ -1,0 +1,285 @@
+BACKUP ~germanNPCSounds/BACKUP~
+AUTHOR ~me~
+
+BEGIN ~Edwin~
+
+COPY_EXISTING ~edwin.cre~ ~override~
+			  ~edwin2.cre~ ~override~
+			  ~edwin4.cre~ ~override~
+			  ~edwin6.cre~ ~override~
+			  //~E35.CRE~ ~override~
+			  //~edwin7.cre~ ~override~
+SAY MORALE "Ich werde nicht durch Eure Inkompetenz sterben!" [EDWIN02]
+SAY HAPPY "Ich hätte nicht gedacht, dass diese Gruppe fähig sein würde, mich zu erfreuen, aber dennoch bin ich beeindruckt." [EDWIN03]
+SAY UNHAPPY_ANNOYED "Ist es tatsächlich möglich, dass meine Einschätzung dieser Gruppe noch weiter enttäuscht wird? Offenbar." [EDWIN04]
+SAY UNHAPPY_SERIOUS "Ich warne Euch. Diese Mildtätigkeit ist nicht nach meinem Geschmack." [EDWIN05]
+SAY UNHAPPY_BREAKING_POINT "Nein, offensichtlich hat das alles keinen Sinn. Ihr lasst eine Gelegenheit nach der anderen ungenutzt verstreichen. Ich werde das nicht mehr länger tolerieren." [EDWIN06]
+SAY LEADER "Ha, es ist auch Zeit geworden, dass ihr Affen endlich erkennt, wer hier der geborene Anführer ist." [EDWIN07]
+SAY TIRED "Ich bin erschöpft. Ich verlange, dass wir anhalten und rasten." [EDWIN08]
+SAY BORED "Geistig inaktiv, körperlich inaktiv. Warum gebe mich nur mit diesen Idioten ab?" [EDWIN09]
+SAY BATTLE_CRY1 "Euer wertloses Leben endet hier!" [EDWIN10]
+SAY BATTLE_CRY2 "Bettelt nur um Euer Leben! Es ist aus mit Euch!" [EDWIN11]
+SAY BATTLE_CRY3 "Außer Sterben bleibt Euch nichts!" [EDWIN12]
+SAY DAMAGE "" [EDWIN13]
+SAY DYING "" [EDWIN14]
+SAY HURT "Hey, ihr Idioten, ich könnte ein wenig Hilfe brauchen." [EDWIN15]
+SAY AREA_FOREST "Ich finde die „freie Wildbahn“ so chaotisch und schmutzig. Hier sollte mal jemand diesen, diesen wilden Tieren mit starker Hand Anstand und Manieren beibringen." [EDWIN16]
+SAY AREA_CITY "Ah, die Stadt, stets im Wandel. Nur die in ihr lebenden Narren bleiben stets die gleichen." [EDWIN17]
+SAY AREA_DUNGEON "Hätten wir nicht irgendwelche armen Idioten anheuern können, die die Drecksarbeit für uns erledigen? Das hier ist wirklich kein Platz für einen Mann meiner Bedeutung." [EDWIN18]
+SAY AREA_DAY "Toll, ein neuer Tag bricht an, und auch heute werden wir wohl wieder planlos herumstolpern." [EDWIN19]
+SAY AREA_NIGHT "Intelligente Leute verzichten darauf, herumzuwandern, wenn es dunkel wird. Wir betteln ja geradezu darum, in Schwierigkeiten zu geraten." [EDWIN20]
+SAY SELECT_COMMON1 "Ja?" [EDWIN21]
+SAY SELECT_COMMON2 "Und was darf es jetzt sein?" [EDWIN22]
+SAY SELECT_COMMON3 "Kommt schon, belästigt jemand anderen." [EDWIN23]
+SAY SELECT_COMMON4 "Ich bin beschäftigt." [EDWIN24]
+SAY SELECT_COMMON5 "Habt Ihr nichts Besseres zu tun, als mich zu belästigen?" [EDWIN25]
+SAY SELECT_COMMON6 "Ja, Meister, was darf ich jetzt für Euch tun?" [EDWIN26]
+SAY SELECT_ACTION1 "Na, meinetwegen." [EDWIN27]
+SAY SELECT_ACTION2 "Ja, ja, ich habe ja schon begriffen." [EDWIN28]
+SAY SELECT_ACTION3 "Eines Tages … Eines Tages …" [EDWIN29]
+SAY SELECT_ACTION4 "Wenn es denn sein muss." [EDWIN30]
+SAY SELECT_ACTION5 "Anstrengend und hirnlos. Typisch." [EDWIN31]
+SAY SELECT_ACTION6 "Eine Verschwendung meiner großartigen Talente." [EDWIN32]
+SAY SELECT_ACTION7 "Schon gut, schon gut, ich mach ja schon. Nur hört auf, mich zu belästigen." [EDWIN33]
+SAY SELECT_RARE1 "Geht in Ordnung." [EDWIN34]
+SAY SELECT_RARE2 "„Edwin tu dies, Edwin tu das“, wie wär's, wenn jemand diesem Trottel eine Banane besorgt?" [EDWIN35]
+SAY CRITICAL_HIT "Fürchte mich!" [EDWIN36]
+SAY CRITICAL_MISS "Pah, die Waffe ist einfach schlecht." [EDWIN37]
+SAY TARGET_IMMUNE "Die Waffe nutzt nichts." [EDWIN38]
+SAY INVENTORY_FULL "Mehr trage ich nicht! Klaubt Eure so genannten Schätze doch selbst auf." [EDWIN39]
+SAY PICKED_POCKET "Der Narr hat nichts bemerkt. Was für ein einfacher Diebstahl." [EDWIN40]
+SAY EXISTANCE1 "Ich habe mich erfolgreich versteckt, doch sagt mir wozu?" [EDWIN41]
+SAY EXISTANCE2 "Verdammt! Mein Zauber ist dahin!" [EDWIN42]
+SAY EXISTANCE3 "Ich ziehe ja eigentlich eine direktere Form des Angriffs vor, aber in diesem Fall wird wohl eine Falle reichen." [EDWIN43]
+
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~germanNPCSounds/edwin~
+    oggdec_path = ~germanNPCSounds/tools/oggdec~
+    sox_path = ~germanNPCSounds/tools/sox~
+END
+
+BEGIN ~Imoen~
+
+COPY_EXISTING ~Imoen.cre~ ~override~
+			  ~Imoen1.cre~ ~override~
+			  ~Imoen2.cre~ ~override~
+			  ~Imoen4.cre~ ~override~
+			  ~Imoen6.cre~ ~override~
+			  ~TTIMOEN.CRE~ ~override~
+			  //~BDCCIMO.CRE~ ~override~
+			  //~BDIMDEAD.CRE~ ~override~
+			  //~bdimoedo.CRE~ ~override~
+			  //~bdimoen.CRE~ ~override~
+			  //~bdshimoe.CRE~ ~override~
+SAY MORALE "Nein, nein, nein! Ich werd hier nicht sterben! Ich muss hier raus! Ich muss an die Oberfläche!" [IMOEN02]
+SAY HAPPY "Jetzt weiß ich wieder, warum mir das Reisen mit Euch solchen Spaß gemacht hat." [IMOEN04]
+SAY UNHAPPY_ANNOYED "Ich bleib bei Euch, egal was passiert. Aber wir sollten trotzdem versuchen, die Leute anständig zu behandeln." [IMOEN05]
+SAY UNHAPPY_SERIOUS "Ich habe das Gefühl, dass Euch das hier wirklich verändert hat. Kommt, das sieht uns doch gar nicht ähnlich." [IMOEN06]
+SAY LEADER "Ohh, echt nicht. Ich bin für diesen Führungskram nicht geschaffen." [IMOEN08]
+SAY TIRED "Ich werd langsam müde. Könnten wir nicht 'ne Pause machen?" [IMOEN09]
+SAY BORED "Wenn wir schon nichts tun, sollten wir das wenigstens an einem sichereren Ort machen." [IMOEN10]
+SAY BATTLE_CRY1 "Meine Klinge wird Euch zurechtstutzen!" [IMOEN12]
+SAY BATTLE_CRY2 "Wenn Kampf der einzige Ausweg ist, dann sei es drum!" [IMOEN13]
+SAY BATTLE_CRY3 "Ihr werdet mich nicht hier festhalten!" [IMOEN14]
+SAY DAMAGE "" [IMOEN18]
+SAY DYING "" [IMOEN19]
+SAY HURT "Los, macht schon. Lasst mich nicht an diesem Ort leiden. Davon haben wir beide genug." [IMOEN20]
+SAY AREA_FOREST "Ich wünschte, ich könnte mehr Zeit in diesem Wald verbringen. Man fühlt sich hier so lebendig." [IMOEN22]
+SAY AREA_CITY "Ich glaube, ich passe nicht mehr zu den Leuten in der Stadt." [IMOEN23]
+SAY AREA_DUNGEON "Hier ist es einfach zu unheimlich. Ich möchte hier weg." [IMOEN24]
+SAY AREA_DAY "Ich freu mich, einen neuen Tag erleben zu dürfen. Hab allerdings das Gefühl, dass das Licht meinen Augen wehtut." [IMOEN25]
+SAY AREA_NIGHT "Könnte genauso gut aufstehen. Ich glaub eh nicht, dass ich schlafen kann." [IMOEN26]
+SAY SELECT_COMMON1 "Ja?" [IMOEN27]
+SAY SELECT_COMMON2 "Okay, okay." [IMOEN28]
+SAY SELECT_COMMON3 "Los, spuck es aus!" [IMOEN29]
+SAY SELECT_COMMON4 "Auf geht's." [IMOEN30]
+SAY SELECT_COMMON5 "Is was los?" [IMOEN31]
+SAY SELECT_COMMON6 "Zeit aufzubrechen?" [IMOEN32]
+SAY SELECT_ACTION1 "Verstanden." [IMOEN33]
+SAY SELECT_ACTION2 "Schön." [IMOEN34]
+SAY SELECT_ACTION3 "Geht klar." [IMOEN35]
+SAY SELECT_ACTION4 "Ok, ok." [IMOEN36]
+SAY SELECT_ACTION5 "Kein Problem." [IMOEN37]
+SAY SELECT_ACTION6 "Ihr könnt Euch auf mich verlassen." [IMOEN38]
+SAY SELECT_ACTION7 "Also hier lang?" [IMOEN39]
+SAY SELECT_RARE1 "Einverstanden." [IMOEN40]
+SAY SELECT_RARE2 "Wie in alten Zeiten. Na ja, bis auf die Folter und so." [IMOEN41]
+SAY CRITICAL_HIT "Erwischt!" [IMOEN42]
+SAY CRITICAL_MISS "Nächstes Mal!" [IMOEN43]
+SAY TARGET_IMMUNE "Muss wohl was anderes ausprobieren." [IMOEN44]
+SAY INVENTORY_FULL "Tut mir Leid, aber das letzte Teil konnte ich nicht mehr tragen. Ist mir auf den Boden gefallen." [IMOEN45]
+SAY PICKED_POCKET "Echt einfach." [IMOEN46]
+SAY EXISTANCE1 "Und schwupps, bin ich weg." [IMOEN47]
+SAY EXISTANCE2 "Die Magie ist verpufft." [IMOEN48]
+SAY EXISTANCE3 "Schhh, ist aufgestellt und scharf." [IMOEN49]
+
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~germanNPCSounds/imoen~
+    oggdec_path = ~germanNPCSounds/tools/oggdec~
+    sox_path = ~germanNPCSounds/tools/sox~
+END
+
+BEGIN ~Jaheira~
+COPY_EXISTING ~E36.cre~ ~override~
+			  ~JAHEIR.cre~ ~override~
+			  ~JAHEIR2.cre~ ~override~
+			  ~JAHEIR4.cre~ ~override~
+			  ~JAHEIR6.cre~ ~override~
+			  ~TTJAHIER.CRE~ ~override~
+			  //~jaheir7.CRE~ ~override~
+SAY MORALE "Ich werde hier nicht sterben!" [JAHEIR02]
+SAY HAPPY "Unsere Taten sind gut und dienen dem Gleichgewicht in allen Dingen." [JAHEIR03]
+SAY UNHAPPY_ANNOYED "Ich hoffe, das ist kein Omen für das, was auf uns zukommt. Wir müssen darauf achten, das Gleichgewicht in allen Dingen zu wahren." [JAHEIR04]
+SAY UNHAPPY_SERIOUS "Tut mir Leid, über das kann ich nicht so leicht hinwegsehen. Ihr müsst Euch ändern, oder wir werden eines Tages auf verschiedenen Seiten kämpfen." [JAHEIR05]
+SAY UNHAPPY_BREAKING_POINT "Ich … ich kann nicht glauben, wie sich die Dinge in dieser Gruppe verändert haben! Zum Wohl des Gleichgewichts in allen Dingen muss ich … muss ich mich gegen Euch wenden." [JAHEIR06]
+SAY LEADER "Wie ich schon mal erwähnt habe: Ihr hättet keine bessere Wahl treffen können." [JAHEIR07]
+SAY TIRED "Ein wenig Ruhe wäre angebracht. Wir bringen uns ja noch selbst in Gefahr." [JAHEIR08]
+SAY BORED "Es ist seltsam, dass wir hier einfach so herumstehen, wenn es doch so viele wichtige Dinge zu tun gibt." [JAHEIR09]
+SAY BATTLE_CRY1 "Für die Gefallenen!" [JAHEIR10]
+SAY BATTLE_CRY2 "Stirb, Kreatur, und nähre die Erde!" [JAHEIR11]
+SAY BATTLE_CRY3 "Die Natur nimmt das Leben, das sie gab!" [JAHEIR12]
+SAY DAMAGE "" [JAHEIR13]
+SAY DYING "" [JAHEIR14]
+SAY HURT "Wenn ich der Gruppe weiterhin von Nutzen sein soll, benötige ich Heilung." [JAHEIR15]
+SAY AREA_FOREST "Hier in der freien Natur kann ich meinen inneren Frieden finden. Leider ist dieser wunderbare Zustand nie von langer Dauer." [JAHEIR16]
+SAY AREA_CITY "Städte gehen mir auf die Nerven. Wir sollten unseren Aufenthalt so kurz wie möglich gestalten." [JAHEIR17]
+SAY AREA_DUNGEON "Die Natur könnte selbst hier Einzug finden, wenn der Ort nur gereinigt und das Gleichgewicht zurückgebracht würde." [JAHEIR18]
+SAY AREA_DAY "Ich heiße jeden neuen Morgen willkommen. Einige haben nicht so viel Glück." [JAHEIR19]
+SAY AREA_NIGHT "Die Natur hat viele Kinder, die die Dunkelheit ihr Zuhause nennen. Aber ich gehöre nicht dazu." [JAHEIR20]
+SAY SELECT_COMMON1 "Die Dienerin der Natur ist bereit." [JAHEIR21]
+SAY SELECT_COMMON2 "Ich warte auf Euren Befehl." [JAHEIR22]
+SAY SELECT_COMMON3 "Ja?" [JAHEIR23]
+SAY SELECT_COMMON4 "Ich bin bereit." [JAHEIR24]
+SAY SELECT_COMMON5 "Wurde aber auch Zeit." [JAHEIR25]
+SAY SELECT_COMMON6 "Sprecht frei heraus." [JAHEIR26]
+SAY SELECT_ACTION1 "Schon erledigt." [JAHEIR27]
+SAY SELECT_ACTION2 "Aber gerne." [JAHEIR28]
+SAY SELECT_ACTION3 "Schon unterwegs." [JAHEIR29]
+SAY SELECT_ACTION4 "Hätte ich auch gemacht." [JAHEIR30]
+SAY SELECT_ACTION5 "Wenn es von Nutzen ist …" [JAHEIR31]
+SAY SELECT_ACTION6 "Ganz meine Meinung." [JAHEIR32]
+SAY SELECT_ACTION7 "Wie Ihr wollt." [JAHEIR33]
+SAY SELECT_RARE1 "Das ist alles?" [JAHEIR34]
+SAY SELECT_RARE2 "Nun gut, wenn Ihr denkt, dass das wirklich gut ist. So viele Taten bereuen wir später." [JAHEIR35]
+SAY CRITICAL_HIT "Die Rache ist mein!" [JAHEIR36]
+SAY CRITICAL_MISS "Argh!" [JAHEIR37]
+SAY TARGET_IMMUNE "Meine Waffe hat keine Wirkung!" [JAHEIR38]
+SAY INVENTORY_FULL "Ich trage ohnehin schon genug mit mir herum. Ihr müsst das vom Boden auflesen." [JAHEIR39]
+SAY EXISTANCE2 "Meine Konzentration wurde unterbrochen. Das Netz der Magie hat sich aufgelöst." [JAHEIR42]
+
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~germanNPCSounds/jaheira~
+    oggdec_path = ~germanNPCSounds/tools/oggdec~
+    sox_path = ~germanNPCSounds/tools/sox~
+END
+
+BEGIN ~Minsk~
+COPY_EXISTING ~E32.cre~ ~override~
+			  ~MINSC.cre~ ~override~
+			  ~MINSC2.cre~ ~override~
+			  ~MINSC4.cre~ ~override~
+			  ~MINSC6.cre~ ~override~
+			  ~TTMINSC.cre~ ~override~
+			  //~minsc7.cre~ ~override~
+SAY MORALE "Verzweifelt nicht! Ich werde Euch ermutigen, indem ich einfach vorstürme!" [MINSC02]
+SAY HAPPY "Wir sind allesamt Helden, Ihr, Boo und ich! Hamster und Waldläufer auf der ganzen Welt: Frohlocket! (quiek)" [MINSC03]
+SAY UNHAPPY_ANNOYED "Das darf so nicht weitergehen! Nehmt den stechenden Blick meines Hamsters zur Kenntnis und ändert Euch!" [MINSC04]
+SAY UNHAPPY_SERIOUS "Das ist nicht richtig. Unsere Vorgehensweise muss sich ändern, oder ich muss mit einem kräftigen Schlag voller Tugend nachhelfen." [MINSC05]
+SAY UNHAPPY_BREAKING_POINT "Boo hält das einfach nicht mehr länger aus!" [MINSC06]
+SAY LEADER "Minsk wird mit seiner Klinge und mit seinem festen Tritt die Führung übernehmen! Boo wird sich um die Details kümmern." [MINSC07]
+SAY TIRED "Wir müssen bald ruhen. Boo ist schon hamstermüde." [MINSC08]
+SAY BORED "Boo wird unruhig. Er braucht Bewegung, oder er wird uns alle an ziemlich exotischen Stellen beißen." [MINSC09]
+SAY BATTLE_CRY1 "Die Augen, Boo! Kratz ihnen die Augen aus! RAAAARGHH! (quiek)" [MINSC10]
+SAY BATTLE_CRY2 "Spürt die Hand der Gerechtigkeit!" [MINSC11]
+SAY BATTLE_CRY3 "Das macht Spaß, was Boo? (quiek)" [MINSC12]
+SAY DAMAGE "" [MINSC13]
+SAY DYING "" [MINSC14]
+SAY HURT "Ihr müsst mir rasch helfen. Boo ist noch zu jung, um mich zu rächen." [MINSC15]
+SAY AREA_FOREST "Der Wald liebt Boo." [MINSC16]
+SAY AREA_CITY "In Städten wimmelt es immer von Bösem und von Verfall. Lasst uns hier einmal rumstöbern und sehen, was wir aufscheuchen." [MINSC17]
+SAY AREA_DUNGEON "Ha, ein stinkendes Loch des Bösen! Bedeck deine Nase, Boo, denn wir werden keine Spalte unerforscht lassen. (quiek)" [MINSC18]
+SAY AREA_DAY "Ahh, ich bevorzuge das Licht des Tages. Das Böse soll die Gerechtigkeit, die ich ihm zuteilwerden lasse, bei hellem Licht sehen." [MINSC19]
+SAY AREA_NIGHT "Seltsame und böse Dinge poltern durch die Nacht, aber keiner poltert heftiger als Minsk!" [MINSC20]
+SAY SELECT_COMMON1 "Ihr zeigt mir wohin, und ich schlage zu!" [MINSC21]
+SAY SELECT_COMMON2 "Schwerter statt Wörter!" [MINSC22]
+SAY SELECT_COMMON3 "Minsk und Boo, allzeit bereit!" [MINSC23]
+SAY SELECT_COMMON4 "Jeder Hamster hat mal seinen großen Tag." [MINSC24]
+SAY SELECT_COMMON5 "Bewaffnet, Verstand geschärft, bereit loszuschlagen." [MINSC25]
+SAY SELECT_COMMON6 "Boo sagt: „Ja bitte?“" [MINSC26]
+SAY SELECT_ACTION1 "Wo immer Minsk auch hingeht, macht das Böse einen Schritt zur Seite." [MINSC27]
+SAY SELECT_ACTION2 "Stürz dich in mein Schwert, Böses, solange du noch kannst! Denn Minsk wird dir keinen solch einfachen Tod gönnen." [MINSC28]
+SAY SELECT_ACTION3 "Mit dem Schwert zu leben, heißt gut und lang zu leben." [MINSC29]
+SAY SELECT_ACTION4 "Tretet zur Seite, hier kommt die Gerechtigkeit!" [MINSC30]
+SAY SELECT_ACTION5 "Siehst du die Schlacht, Boo? Lauf, Boo, lauf! (quiek)" [MINSC31]
+SAY SELECT_ACTION6 "Macht Platz, Bösewichter! Eiliger Held auf dem Durchmarsch!" [MINSC32]
+SAY SELECT_ACTION7 "Hah! Tritte in den Hintern für die eine Sache!" [MINSC33]
+SAY SELECT_RARE1 "Je größer sie sind, desto härter schlage ich zu." [MINSC34]
+SAY SELECT_RARE2 "Erklärt meinem Hamster bloß nicht, wie man Eier aussaugt." [MINSC35]
+SAY CRITICAL_HIT "Ah, hay!" [MINSC36]
+SAY CRITICAL_MISS "Oh, das sollte nicht sein." [MINSC37]
+SAY TARGET_IMMUNE "Was denn, keine Wirkung? Gebt mir ein größeres Schwert!" [MINSC38]
+SAY INVENTORY_FULL "Ich habe das, was ich tragen sollte, fallen lassen müssen. Leider hab ich nur zwei Arme und keinen Platz mehr im Rucksack." [MINSC39]
+SAY EXISTANCE1 "Keiner wird mich sehen, aber es könnte sein, dass mich mein Schlachtruf enttarnt." [MINSC41]
+SAY EXISTANCE2 "Ich habe Boo mit meinem Körper gedeckt und konnte daher meinen Zauber nicht wirken. Aber es tut mir nicht leid!" [MINSC42]
+
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~germanNPCSounds/minsk~
+    oggdec_path = ~germanNPCSounds/tools/oggdec~
+    sox_path = ~germanNPCSounds/tools/sox~
+END
+
+BEGIN ~Viconia~
+COPY_EXISTING ~VICONI.cre~ ~override~
+			  ~VICONI4.cre~ ~override~
+			  ~VICONI6.cre~ ~override~
+			  //~viconi7.cre~ ~override~
+SAY MORALE "Wir müssen fliehen und ein anderes Mal weiterkämpfen!" [VICONI02]
+SAY HAPPY "Ich halte das für ein sehr angenehmes Arrangement." [VICONI03]
+SAY UNHAPPY_ANNOYED "Bewohner der Oberwelt können so dumm sein." [VICONI04]
+SAY UNHAPPY_SERIOUS "Ich habe bald keine Lust mehr, meine Zeit mit Dummköpfen zu verbringen!" [VICONI05]
+SAY UNHAPPY_BREAKING_POINT "Mir steht nicht der Sinn danach, weiterhin in der Gesellschaft von Einfaltspinseln zu bleiben." [VICONI06]
+SAY LEADER "Wie ich sehe, habt Ihr in Eurem kurzen Leben bereits viel gelernt." [VICONI07]
+SAY TIRED "Wie lange wollt Ihr meinen Rücken noch mit Eurer Peitsche bearbeiten? Ich meine, wir rasten jetzt." [VICONI08]
+SAY BORED "Die Drow gehen nie so müßig mit ihrer Zeit um." [VICONI09]
+SAY BATTLE_CRY1 "Lil alurl! Für Shar!" [VICONI10]
+SAY BATTLE_CRY2 "Keine Gnade denen, die gegen uns sind!" [VICONI11]
+SAY BATTLE_CRY3 "Ultrinnan!" [VICONI12]
+SAY DAMAGE "" [VICONI13]
+SAY DYING "" [VICONI14]
+SAY HURT "Nein! Es kann so nicht enden … Ich werde das nicht zulassen!" [VICONI15]
+SAY AREA_FOREST "Ich habe mich noch nicht an all dies Grün und die durchscheinende Helligkeit gewöhnt … Ein Teil von mir sucht nach den verborgenen Spinnennetzen dahinter." [VICONI16]
+SAY AREA_CITY "Der Gestank von einem Haufen Riwin … Wie ich sie alle verachte!" [VICONI17]
+SAY AREA_DUNGEON "Ich versinke in Erinnerungen an einen Ort wie diesen … höchst unerfreuliche Erinnerungen." [VICONI18]
+SAY AREA_DAY "Ahhh, dieses Licht … Es schmerzt immer noch!" [VICONI19]
+SAY AREA_NIGHT "In dieser Welt gibt es kein Dach. Manchmal habe ich das Gefühl, dass ich in Euren Himmel stürze." [VICONI20]
+SAY SELECT_COMMON1 "Jal Khaless?" [VICONI21]
+SAY SELECT_COMMON2 "Ja, abbil?" [VICONI22]
+SAY SELECT_COMMON3 "Usstan zhah dosst." [VICONI23]
+SAY SELECT_COMMON4 "Ich stehe Euch zu Diensten." [VICONI24]
+SAY SELECT_COMMON5 "Shar führt meine Hand." [VICONI25]
+SAY SELECT_COMMON6 "Der Sieg wird unser sein. Ihr wisst das." [VICONI26]
+SAY SELECT_ACTION1 "Vertrauen ist etwas für Narren … und Tote." [VICONI27]
+SAY SELECT_ACTION2 "Ich werde Eurer Stärke folgen." [VICONI28]
+SAY SELECT_ACTION3 "Das Schicksal wartet!" [VICONI29]
+SAY SELECT_ACTION4 "Nau natha." [VICONI30]
+SAY SELECT_ACTION5 "A'dos quarth!" [VICONI31]
+SAY SELECT_ACTION6 "Wie Ihr wünscht." [VICONI32]
+SAY SELECT_ACTION7 "Wenn das Euer Wunsch ist." [VICONI33]
+SAY SELECT_RARE1 "Folt xund!" [VICONI34]
+SAY SELECT_RARE2 "Shar steht für mich an oberster Stelle, aber ich werde bei Euch bleiben … fürs Erste." [VICONI35]
+SAY CRITICAL_HIT "Vith'os!" [VICONI36]
+SAY CRITICAL_MISS "Vith'ir!" [VICONI37]
+SAY TARGET_IMMUNE "Meine Waffe taugt nichts!" [VICONI38]
+SAY INVENTORY_FULL "Ich werde nichts mehr tragen. Ihr könnt ja nach dem, was ich weggeworfen habe, suchen." [VICONI39]
+SAY EXISTANCE2 "Meine Gedanken werden gestört. Meine Magie ist verloren." [VICONI42]
+
+LAF HANDLE_AUDIO
+  STR_VAR
+    audio_path = ~germanNPCSounds/viconia~
+    oggdec_path = ~germanNPCSounds/tools/oggdec~
+    sox_path = ~germanNPCSounds/tools/sox~
+END
