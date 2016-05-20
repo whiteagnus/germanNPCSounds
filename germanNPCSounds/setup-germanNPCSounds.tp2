@@ -2,6 +2,7 @@ BACKUP ~germanNPCSounds/BACKUP~
 AUTHOR ~me~
 
 BEGIN ~Edwin~
+REQUIRE_PREDICATE GAME_IS ~bgee~ ~Dieser Mod ist nur für BGEE~
 
 COPY_EXISTING ~edwin.cre~ ~override~
 			  ~edwin2.cre~ ~override~
@@ -73,6 +74,7 @@ LAF HANDLE_AUDIO
 END
 
 BEGIN ~Imoen~
+REQUIRE_PREDICATE GAME_IS ~bgee~ ~Dieser Mod ist nur für BGEE~
 
 COPY_EXISTING ~Imoen.cre~ ~override~
 			  ~Imoen1.cre~ ~override~
@@ -138,6 +140,8 @@ LAF HANDLE_AUDIO
 END
 
 BEGIN ~Jaheira~
+REQUIRE_PREDICATE GAME_IS ~bgee~ ~Dieser Mod ist nur für BGEE~
+
 COPY_EXISTING ~E36.cre~ ~override~
 			  ~JAHEIR.cre~ ~override~
 			  ~JAHEIR2.cre~ ~override~
@@ -207,6 +211,8 @@ LAF HANDLE_AUDIO
 END
 
 BEGIN ~Minsk~
+REQUIRE_PREDICATE GAME_IS ~bgee~ ~Dieser Mod ist nur für BGEE~
+
 COPY_EXISTING ~E32.cre~ ~override~
 			  ~MINSC.cre~ ~override~
 			  ~MINSC2.cre~ ~override~
@@ -214,39 +220,39 @@ COPY_EXISTING ~E32.cre~ ~override~
 			  ~MINSC6.cre~ ~override~
 			  ~TTMINSC.cre~ ~override~
 			  //~minsc7.cre~ ~override~
-SAY INITIAL_MEETING "Boo sagt: 'Wie bitte?'" [WAMINS01]
-SAY MORALE "Verzweifelt nicht! Ich werde Euch ermutigen, indem ich einfach vorstürme!" [WAMINS02]
-SAY HAPPY "Wir sind allesamt Helden, ihr, Boo und ich! Hamster und Waldläufer auf der ganzen Welt: Frohlocket!" [WAMINS03]
-SAY UNHAPPY_ANNOYED "Das darf so nicht weitergehen! Nehmt den stechenden Blick meines Hamsters zur Kenntnis und ändert euch!" [WAMINS04]
-SAY UNHAPPY_SERIOUS "Das ist nicht richtig. Unsere Vorgehensweise muß sich ändern, oder ich muß mit einem kräftigen Schlag voller Tugend nachhelfen." [WAMINS05]
-SAY UNHAPPY_BREAKING "Boo hält das einfach nicht mehr länger aus!" [WAMINS06]
-SAY LEADER "Minsk wird mit seiner Klinge und mit seinem festen Tritt die Führung übernehmen! Boo wird sich um die Details kümmern." [WAMINS07]
-SAY TIRED "Wir müssen bald ruhen. Boo ist schon hamstermüde." [WAMINS08]
-SAY BORED "Boo wird unruhig. Er braucht Bewegung, oder er wird uns alle an ziemlich exotischen Stellen beißen." [WAMINS09]
-SAY BATTLE_CRY1 "Die Augen, Boo! KRATZ IHNEN DIE AUGEN AUS!!! GRAAAARGHH!" [WAMINS10]
-SAY BATTLE_CRY2 "Spürt die Hand der Gerechtigkeit!" [WAMINS11]
-SAY BATTLE_CRY3 "Das macht Spaß, was Boo?" [WAMINS12]
-SAY DAMAGE "" [WAMINS13]
-SAY DYING "" [WAMINS14]
-SAY HURT "Ihr müßt mir rasch helfen. Boo ist noch zu jung, um mich zu rächen." [WAMINS15]
-SAY AREA_FOREST "Der Wald liebt Boo." [WAMINS16]
-SAY AREA_CITY "In Städten wimmelt es immer vor Bösem und vor Verfall. Laßt uns hier einmal rumstöbern und sehen, was wir aufscheuchen." [WAMINS17]
-SAY AREA_DUNGEON "Hah, ein stinkendes Loch des Bösen. Bedecke deine Nase, Boo, denn wir werden keine Spalte unerforscht lassen." [WAMINS18]
-SAY AREA_DAY "Ahh, ich bevorzuge das Licht des Tages. Das Böse soll nur die Gerechtigkeit bei hellem Licht sehen, die ich ihm zuteil werden lassen." [WAMINS19]
-SAY AREA_NIGHT "Seltsame und böse Dinge poltern durch die Nacht, aber keiner poltert heftiger als Minsk." [WAMINS20]
-SAY SELECT_COMMON1 "Ihr zeigt mir, wohin, und ich schlage zu!" [WAMINS21]
-SAY SELECT_COMMON2 "Schwerter statt Wörter!" [WAMINS22]
-SAY SELECT_COMMON3 "Minsk und Boo, allzeit bereit!" [WAMINS23]
-SAY SELECT_COMMON4 "Jeder Hamster hat mal seinen großen Tag." [WAMINS24]
-SAY SELECT_COMMON5 "Bewaffnet, Verstand geschärft, bereit loszuschlagen." [WAMINS25]
-SAY SELECT_COMMON6 "Boo sagt: 'Wie bitte?'" [WAMINS26]
-SAY SELECT_ACTION1 "Wo immer Minsk auch hingeht, macht das Böse einen Schritt zur Seite." [WAMINS27]
-SAY SELECT_ACTION2 "Stürz dich in mein Schwert, Böses, solange du noch kannst! Denn Minsk wird dir keinen solch einfachen Tod gönnen." [WAMINS28]
-SAY SELECT_ACTION3 "Mit dem Schwert zu leben, heißt gut und lang zu leben." [WAMINS29]
-SAY SELECT_ACTION4 "Tretet zur Seite, hier kommt die Gerechtigkeit!" [WAMINS30]
-SAY SELECT_ACTION5 "Siehst du die Schlacht, Boo? Lauf,  Boo! Lauf!" [WAMINS31]
-SAY SELECT_ACTION6 "Macht Platz, Bösewichter! Eiliger Held auf dem Durchmarsch!" [WAMINS32]
-SAY SELECT_ACTION7 "Ha, Tritte in den Hintern für die eine Sache!" [WAMINS33]
+SAY INITIAL_MEETING ~Boo sagt: 'Wie bitte?'~ [WAMINS01]
+SAY MORALE ~Verzweifelt nicht! Ich werde Euch ermutigen, indem ich einfach vorstürme!~ [WAMINS02]
+SAY HAPPY ~Wir sind allesamt Helden, ihr, Boo und ich! Hamster und Waldläufer auf der ganzen Welt: Frohlocket!~ [WAMINS03]
+SAY UNHAPPY_ANNOYED ~Das darf so nicht weitergehen! Nehmt den stechenden Blick meines Hamsters zur Kenntnis und ändert euch!~ [WAMINS04]
+SAY UNHAPPY_SERIOUS ~Das ist nicht richtig. Unsere Vorgehensweise muß sich ändern, oder ich muß mit einem kräftigen Schlag voller Tugend nachhelfen.~ [WAMINS05]
+SAY UNHAPPY_BREAKING ~Boo hält das einfach nicht mehr länger aus!~ [WAMINS06]
+SAY LEADER ~Minsk wird mit seiner Klinge und mit seinem festen Tritt die Führung übernehmen! Boo wird sich um die Details kümmern.~ [WAMINS07]
+SAY TIRED ~Wir müssen bald ruhen. Boo ist schon hamstermüde.~ [WAMINS08]
+SAY BORED ~Boo wird unruhig. Er braucht Bewegung, oder er wird uns alle an ziemlich exotischen Stellen beißen.~ [WAMINS09]
+SAY BATTLE_CRY1 ~Die Augen, Boo! KRATZ IHNEN DIE AUGEN AUS!!! GRAAAARGHH!~ [WAMINS10]
+SAY BATTLE_CRY2 ~Spürt die Hand der Gerechtigkeit!~ [WAMINS11]
+SAY BATTLE_CRY3 ~Das macht Spaß, was Boo?~ [WAMINS12]
+SAY DAMAGE ~~ [WAMINS13]
+SAY DYING ~~ [WAMINS14]
+SAY HURT ~Ihr müßt mir rasch helfen. Boo ist noch zu jung, um mich zu rächen.~ [WAMINS15]
+SAY AREA_FOREST ~Der Wald liebt Boo.~ [WAMINS16]
+SAY AREA_CITY ~In Städten wimmelt es immer vor Bösem und vor Verfall. Laßt uns hier einmal rumstöbern und sehen, was wir aufscheuchen.~ [WAMINS17]
+SAY AREA_DUNGEON ~Hah, ein stinkendes Loch des Bösen. Bedecke deine Nase, Boo, denn wir werden keine Spalte unerforscht lassen.~ [WAMINS18]
+SAY AREA_DAY ~Ahh, ich bevorzuge das Licht des Tages. Das Böse soll nur die Gerechtigkeit bei hellem Licht sehen, die ich ihm zuteil werden lassen.~ [WAMINS19]
+SAY AREA_NIGHT ~Seltsame und böse Dinge poltern durch die Nacht, aber keiner poltert heftiger als Minsk.~ [WAMINS20]
+SAY SELECT_COMMON1 ~Ihr zeigt mir, wohin, und ich schlage zu!~ [WAMINS21]
+SAY SELECT_COMMON2 ~Schwerter statt Wörter!~ [WAMINS22]
+SAY SELECT_COMMON3 ~Minsk und Boo, allzeit bereit!~ [WAMINS23]
+SAY SELECT_COMMON4 ~Jeder Hamster hat mal seinen großen Tag.~ [WAMINS24]
+SAY SELECT_COMMON5 ~Bewaffnet, Verstand geschärft, bereit loszuschlagen.~ [WAMINS25]
+SAY SELECT_COMMON6 ~Boo sagt: 'Wie bitte?'~ [WAMINS26]
+SAY SELECT_ACTION1 ~Wo immer Minsk auch hingeht, macht das Böse einen Schritt zur Seite.~ [WAMINS27]
+SAY SELECT_ACTION2 ~Stürz dich in mein Schwert, Böses, solange du noch kannst! Denn Minsk wird dir keinen solch einfachen Tod gönnen.~ [WAMINS28]
+SAY SELECT_ACTION3 ~Mit dem Schwert zu leben, heißt gut und lang zu leben.~ [WAMINS29]
+SAY SELECT_ACTION4 ~Tretet zur Seite, hier kommt die Gerechtigkeit!~ [WAMINS30]
+SAY SELECT_ACTION5 ~Siehst du die Schlacht, Boo? Lauf,  Boo! Lauf!~ [WAMINS31]
+SAY SELECT_ACTION6 ~Macht Platz, Bösewichter! Eiliger Held auf dem Durchmarsch!~ [WAMINS32]
+SAY SELECT_ACTION7 ~Ha, Tritte in den Hintern für die eine Sache!~ [WAMINS33]
 SAY INTERACTION1 #-1
 SAY INTERACTION2 #-1
 SAY INTERACTION3 #-1
@@ -260,14 +266,14 @@ SAY REACT_TO_DIE_SPECIFIC #-1
 SAY RESPONSE_TO_INSULT1 #-1
 SAY RESPONSE_TO_INSULT2 #-1
 SAY RESPONSE_TO_INSULT3 #-1
-SAY SELECT_RARE1 "Je größer sie sind, desto härter schlage ich zu." [WAMINS34]
-SAY SELECT_RARE2 "Erklärt meinem Hamster BLOSS nicht, wie man Eier aussaugt." [WAMINS35]
-SAY CRITICAL_HIT "Ah hay!!" [WAMINS36]
-SAY CRITICAL_MISS "Das sollte nicht sein." [WAMINS37]
-SAY TARGET_IMMUNE "Was denn, keine Wirkung? Gebt mir ein größeres Schwert!" [WAMINS38]
-SAY INVENTORY_FULL "Ich habe das, was ich tragen sollte, fallen lassen müssen. Leider hab ich nur zwei Arme und keinen Platz mehr im Rucksack." [WAMINS39]
-SAY EXISTANCE1 "Keiner wird mich sehen, aber es könnte sein, dass mich mein Schlachtruf enttarnt." [WAMINS40]
-SAY EXISTANCE2 "Ich habe Boo mit meinem Körper gedeckt und konnte daher meinen Zauber nicht wirken. Aber es tut mir nicht Leid!" [WAMINS41]
+SAY SELECT_RARE1 ~Je größer sie sind, desto härter schlage ich zu.~ [WAMINS34]
+SAY SELECT_RARE2 ~Erklärt meinem Hamster BLOSS nicht, wie man Eier aussaugt.~ [WAMINS35]
+SAY CRITICAL_HIT ~Ah hay!!~ [WAMINS36]
+SAY CRITICAL_MISS ~Das sollte nicht sein.~ [WAMINS37]
+SAY TARGET_IMMUNE ~Was denn, keine Wirkung? Gebt mir ein größeres Schwert!~ [WAMINS38]
+SAY INVENTORY_FULL ~Ich habe das, was ich tragen sollte, fallen lassen müssen. Leider hab ich nur zwei Arme und keinen Platz mehr im Rucksack.~ [WAMINS39]
+SAY EXISTANCE1 ~Keiner wird mich sehen, aber es könnte sein, dass mich mein Schlachtruf enttarnt.~ [WAMINS40]
+SAY EXISTANCE2 ~Ich habe Boo mit meinem Körper gedeckt und konnte daher meinen Zauber nicht wirken. Aber es tut mir nicht Leid!~ [WAMINS41]
 
 LAF HANDLE_AUDIO
   STR_VAR
@@ -277,49 +283,67 @@ LAF HANDLE_AUDIO
 END
 
 BEGIN ~Viconia~
+REQUIRE_PREDICATE GAME_IS ~bgee~ ~Dieser Mod ist nur für BGEE~
+
 COPY_EXISTING ~VICONI.cre~ ~override~
 			  ~VICONI4.cre~ ~override~
 			  ~VICONI6.cre~ ~override~
 			  //~viconi7.cre~ ~override~
-SAY MORALE "Wir müssen fliehen und ein anderes Mal weiterkämpfen!" [VICONI02]
-SAY HAPPY "Ich halte das für ein sehr angenehmes Arrangement." [VICONI03]
-SAY UNHAPPY_ANNOYED "Bewohner der Oberwelt können so dumm sein." [VICONI04]
-SAY UNHAPPY_SERIOUS "Ich habe bald keine Lust mehr, meine Zeit mit Dummköpfen zu verbringen!" [VICONI05]
-SAY UNHAPPY_BREAKING_POINT "Mir steht nicht der Sinn danach, weiterhin in der Gesellschaft von Einfaltspinseln zu bleiben." [VICONI06]
-SAY LEADER "Wie ich sehe, habt Ihr in Eurem kurzen Leben bereits viel gelernt." [VICONI07]
-SAY TIRED "Wie lange wollt Ihr meinen Rücken noch mit Eurer Peitsche bearbeiten? Ich meine, wir rasten jetzt." [VICONI08]
-SAY BORED "Die Drow gehen nie so müßig mit ihrer Zeit um." [VICONI09]
-SAY BATTLE_CRY1 "Lil alurl! Für Shar!" [VICONI10]
-SAY BATTLE_CRY2 "Keine Gnade denen, die gegen uns sind!" [VICONI11]
-SAY BATTLE_CRY3 "Ultrinnan!" [VICONI12]
-SAY DAMAGE "" [VICONI13]
-SAY DYING "" [VICONI14]
-SAY HURT "Nein! Es kann so nicht enden … Ich werde das nicht zulassen!" [VICONI15]
-SAY AREA_FOREST "Ich habe mich noch nicht an all dies Grün und die durchscheinende Helligkeit gewöhnt … Ein Teil von mir sucht nach den verborgenen Spinnennetzen dahinter." [VICONI16]
-SAY AREA_CITY "Der Gestank von einem Haufen Riwin … Wie ich sie alle verachte!" [VICONI17]
-SAY AREA_DUNGEON "Ich versinke in Erinnerungen an einen Ort wie diesen … höchst unerfreuliche Erinnerungen." [VICONI18]
-SAY AREA_DAY "Ahhh, dieses Licht … Es schmerzt immer noch!" [VICONI19]
-SAY AREA_NIGHT "In dieser Welt gibt es kein Dach. Manchmal habe ich das Gefühl, dass ich in Euren Himmel stürze." [VICONI20]
-SAY SELECT_COMMON1 "Jal Khaless?" [VICONI21]
-SAY SELECT_COMMON2 "Ja, abbil?" [VICONI22]
-SAY SELECT_COMMON3 "Usstan zhah dosst." [VICONI23]
-SAY SELECT_COMMON4 "Ich stehe Euch zu Diensten." [VICONI24]
-SAY SELECT_COMMON5 "Shar führt meine Hand." [VICONI25]
-SAY SELECT_COMMON6 "Der Sieg wird unser sein. Ihr wisst das." [VICONI26]
-SAY SELECT_ACTION1 "Vertrauen ist etwas für Narren … und Tote." [VICONI27]
-SAY SELECT_ACTION2 "Ich werde Eurer Stärke folgen." [VICONI28]
-SAY SELECT_ACTION3 "Das Schicksal wartet!" [VICONI29]
-SAY SELECT_ACTION4 "Nau natha." [VICONI30]
-SAY SELECT_ACTION5 "A'dos quarth!" [VICONI31]
-SAY SELECT_ACTION6 "Wie Ihr wünscht." [VICONI32]
-SAY SELECT_ACTION7 "Wenn das Euer Wunsch ist." [VICONI33]
-SAY SELECT_RARE1 "Folt xund!" [VICONI34]
-SAY SELECT_RARE2 "Shar steht für mich an oberster Stelle, aber ich werde bei Euch bleiben … fürs Erste." [VICONI35]
-SAY CRITICAL_HIT "Vith'os!" [VICONI36]
-SAY CRITICAL_MISS "Vith'ir!" [VICONI37]
-SAY TARGET_IMMUNE "Meine Waffe taugt nichts!" [VICONI38]
-SAY INVENTORY_FULL "Ich werde nichts mehr tragen. Ihr könnt ja nach dem, was ich weggeworfen habe, suchen." [VICONI39]
-SAY EXISTANCE2 "Meine Gedanken werden gestört. Meine Magie ist verloren." [VICONI42]
+SAY INITIAL_MEETING ~Nein! Es kann so nicht enden... Nein! Nau!! Oloth plynn d'jal!!~ [WAVICO01]
+SAY MORALE ~Lauft, was Ihr könnt!~ [WAVICO02]
+SAY HAPPY ~Ich halte das für ein sehr angenehmes Arrangement.~ [WAVICO03]
+SAY UNHAPPY_ANNOYED ~Bewohner der Oberwelt können so dumm sein.~ [WAVICO04]
+SAY UNHAPPY_SERIOUS ~Ich habe bald keine Lust mehr, meine Zeit mit Dummköpfen zu verbringen.~ [WAVICO05]
+SAY UNHAPPY_BREAKING ~Ich habe keine Lust, noch länger unter Schwachsinnigen zu verweilen.~ [WAVICO06]
+SAY LEADER ~Wie ich sehe, habt Ihr in Eurem kurzen Leben bereits viel gelernt.~ [WAVICO07]
+SAY TIRED ~Wie lange wollt Ihr meinen Rücken noch mit Eurer Peitsche bearbeiten? Ich meine, wir rasten jetzt.~ [WAVICO08]
+SAY BORED ~Die Drow gehen nie so müßig mit ihrer Zeit um.~ [WAVICO09]
+SAY BATTLE_CRY1 ~Lil alurl! Für Shar!~ [WAVICO10]
+SAY BATTLE_CRY2 ~Keine Gnade denen, die gegen uns sind!~ [WAVICO11]
+SAY BATTLE_CRY3 ~Ultrinnan!~ [WAVICO12]
+SAY DAMAGE ~~ [WAVICO13]
+SAY DYING ~~ [WAVICO14]
+SAY HURT ~Nein... es kann so nicht enden ... Ich werde das nicht zulassen!~ [WAVICO15]
+SAY AREA_FOREST ~Ich habe mich noch nicht an all dies Grün und die durchscheinende Helligkeit gewöhnt ... Ein Teil von mir sucht nach den verborgenen Spinnennetzen dahinter.~ [WAVICO16]
+SAY AREA_CITY ~Der Gestank von einem Haufen Riwin ... Wie ich sie alle verachte.~ [WAVICO17]
+SAY AREA_DUNGEON ~Ich versinke in Erinnerungen an einen Ort wie diesen ... Höchst unerfreuliche Erinnerungen.~ [WAVICO18]
+SAY AREA_DAY ~Ahhh, dieses Licht ... Es schmerzt immer noch!~ [WAVICO19]
+SAY AREA_NIGHT ~In dieser Welt gibt es kein Dach. Manchmal habe ich das Gefühl, dass ich in Euren Himmel stürze.~ [WAVICO20]
+SAY SELECT_COMMON1 ~Jal Khaless?~ [WAVICO21]
+SAY SELECT_COMMON2 ~Ja, abbil?~ [WAVICO22]
+SAY SELECT_COMMON3 ~Usstan zhah dosst.~ [WAVICO23]
+SAY SELECT_COMMON4 ~Ich stehe Euch zu Diensten.~ [WAVICO24]
+SAY SELECT_COMMON5 ~Shar führt meine Hand.~ [WAVICO25]
+SAY SELECT_COMMON6 ~Der Sieg wird unser sein. Ihr wisst das.~ [WAVICO26]
+SAY SELECT_ACTION1 ~Vertrauen ist etwas für Narren ... und Tote.~ [WAVICO27]
+SAY SELECT_ACTION2 ~Ich werde Eurer Stärke folgen.~ [WAVICO28]
+SAY SELECT_ACTION3 ~Das Schicksal wartet!~ [WAVICO29]
+SAY SELECT_ACTION4 ~Nau natha.~ [WAVICO30]
+SAY SELECT_ACTION5 ~A'dos quarth!~ [WAVICO31]
+SAY SELECT_ACTION6 ~Wie Ihr wünscht.~ [WAVICO32]
+SAY SELECT_ACTION7 ~Wenn das Euer Wunsch ist.~ [WAVICO33]
+SAY INTERACTION1 #-1
+SAY INTERACTION2 #-1
+SAY INTERACTION3 #-1
+SAY INTERACTION4 #-1
+SAY INTERACTION5 #-1
+SAY INSULT #-1
+SAY COMPLIMENT1 #-1
+SAY SPECIAL1 #-1
+SAY REACT_TO_DIE_GENERAL #-1
+SAY REACT_TO_DIE_SPECIFIC #-1
+SAY MISCELLANEOUS #-1
+SAY RESPONSE_TO_INSULT1 #-1
+SAY RESPONSE_TO_INSULT2 #-1
+SAY DIALOG_DEFAULT #-1
+SAY SELECT_RARE1 ~Folt xund!~ [WAVICO34]
+SAY SELECT_RARE2 ~Shar steht für mich an oberster Stelle, aber ich werde bei Euch bleiben ... fürs Erste.~ [WAVICO35]
+SAY CRITICAL_HIT ~Vith'os!~ [WAVICO36]
+SAY CRITICAL_MISS ~Vith'ir!~ [WAVICO37]
+SAY TARGET_IMMUNE ~Meine Waffe taugt nichts!~ [WAVICO38]
+SAY INVENTORY_FULL ~Ich werde nichts mehr tragen. Ihr könnt ja nach dem, was ich weggeworfen habe, suchen.~ [WAVICO39]
+SAY PICKED_POCKET #-1
+SAY EXISTANCE2 ~Meine Gedanken werden gestört. Meine Magie ist verloren.~ [WAVICO40]
 
 LAF HANDLE_AUDIO
   STR_VAR
