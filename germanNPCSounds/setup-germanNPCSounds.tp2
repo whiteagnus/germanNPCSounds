@@ -145,45 +145,59 @@ COPY_EXISTING ~E36.cre~ ~override~
 			  ~JAHEIR6.cre~ ~override~
 			  ~TTJAHIER.CRE~ ~override~
 			  //~jaheir7.CRE~ ~override~
-SAY MORALE "Ich werde hier nicht sterben!" [JAHEIR02]
-SAY HAPPY "Unsere Taten sind gut und dienen dem Gleichgewicht in allen Dingen." [JAHEIR03]
-SAY UNHAPPY_ANNOYED "Ich hoffe, das ist kein Omen für das, was auf uns zukommt. Wir müssen darauf achten, das Gleichgewicht in allen Dingen zu wahren." [JAHEIR04]
-SAY UNHAPPY_SERIOUS "Tut mir Leid, über das kann ich nicht so leicht hinwegsehen. Ihr müsst Euch ändern, oder wir werden eines Tages auf verschiedenen Seiten kämpfen." [JAHEIR05]
-SAY UNHAPPY_BREAKING_POINT "Ich … ich kann nicht glauben, wie sich die Dinge in dieser Gruppe verändert haben! Zum Wohl des Gleichgewichts in allen Dingen muss ich … muss ich mich gegen Euch wenden." [JAHEIR06]
-SAY LEADER "Wie ich schon mal erwähnt habe: Ihr hättet keine bessere Wahl treffen können." [JAHEIR07]
-SAY TIRED "Ein wenig Ruhe wäre angebracht. Wir bringen uns ja noch selbst in Gefahr." [JAHEIR08]
-SAY BORED "Es ist seltsam, dass wir hier einfach so herumstehen, wenn es doch so viele wichtige Dinge zu tun gibt." [JAHEIR09]
-SAY BATTLE_CRY1 "Für die Gefallenen!" [JAHEIR10]
-SAY BATTLE_CRY2 "Stirb, Kreatur, und nähre die Erde!" [JAHEIR11]
-SAY BATTLE_CRY3 "Die Natur nimmt das Leben, das sie gab!" [JAHEIR12]
-SAY DAMAGE "" [JAHEIR13]
-SAY DYING "" [JAHEIR14]
-SAY HURT "Wenn ich der Gruppe weiterhin von Nutzen sein soll, benötige ich Heilung." [JAHEIR15]
-SAY AREA_FOREST "Hier in der freien Natur kann ich meinen inneren Frieden finden. Leider ist dieser wunderbare Zustand nie von langer Dauer." [JAHEIR16]
-SAY AREA_CITY "Städte gehen mir auf die Nerven. Wir sollten unseren Aufenthalt so kurz wie möglich gestalten." [JAHEIR17]
-SAY AREA_DUNGEON "Die Natur könnte selbst hier Einzug finden, wenn der Ort nur gereinigt und das Gleichgewicht zurückgebracht würde." [JAHEIR18]
-SAY AREA_DAY "Ich heiße jeden neuen Morgen willkommen. Einige haben nicht so viel Glück." [JAHEIR19]
-SAY AREA_NIGHT "Die Natur hat viele Kinder, die die Dunkelheit ihr Zuhause nennen. Aber ich gehöre nicht dazu." [JAHEIR20]
-SAY SELECT_COMMON1 "Die Dienerin der Natur ist bereit." [JAHEIR21]
-SAY SELECT_COMMON2 "Ich warte auf Euren Befehl." [JAHEIR22]
-SAY SELECT_COMMON3 "Ja?" [JAHEIR23]
-SAY SELECT_COMMON4 "Ich bin bereit." [JAHEIR24]
-SAY SELECT_COMMON5 "Wurde aber auch Zeit." [JAHEIR25]
-SAY SELECT_COMMON6 "Sprecht frei heraus." [JAHEIR26]
-SAY SELECT_ACTION1 "Schon erledigt." [JAHEIR27]
-SAY SELECT_ACTION2 "Aber gerne." [JAHEIR28]
-SAY SELECT_ACTION3 "Schon unterwegs." [JAHEIR29]
-SAY SELECT_ACTION4 "Hätte ich auch gemacht." [JAHEIR30]
-SAY SELECT_ACTION5 "Wenn es von Nutzen ist …" [JAHEIR31]
-SAY SELECT_ACTION6 "Ganz meine Meinung." [JAHEIR32]
-SAY SELECT_ACTION7 "Wie Ihr wollt." [JAHEIR33]
-SAY SELECT_RARE1 "Das ist alles?" [JAHEIR34]
-SAY SELECT_RARE2 "Nun gut, wenn Ihr denkt, dass das wirklich gut ist. So viele Taten bereuen wir später." [JAHEIR35]
-SAY CRITICAL_HIT "Die Rache ist mein!" [JAHEIR36]
-SAY CRITICAL_MISS "Argh!" [JAHEIR37]
-SAY TARGET_IMMUNE "Meine Waffe hat keine Wirkung!" [JAHEIR38]
-SAY INVENTORY_FULL "Ich trage ohnehin schon genug mit mir herum. Ihr müsst das vom Boden auflesen." [JAHEIR39]
-SAY EXISTANCE2 "Meine Konzentration wurde unterbrochen. Das Netz der Magie hat sich aufgelöst." [JAHEIR42]
+SAY INITIAL_MEETING ~Es ist seltsam, dass wir hier einfach so herumstehen, wenn es doch so viele wichtige Dinge zu tun gibt.~ [WAJAHE01]
+SAY MORALE ~Ich werde nicht hier sterben!~ [WAJAHE02]
+SAY HAPPY ~Unsere Taten sind gut und dienen dem Gleichgewicht in allen Dingen.~ [WAJAHE03]
+SAY UNHAPPY_ANNOYED ~Ich hoffe, das ist kein Omen für das, was auf uns zukommt. Wir müssen darauf achten, das Gleichgewicht in allen Dingen zu wahren.~ [WAJAHE04]
+SAY UNHAPPY_SERIOUS ~Tut mir leid, über das kann ich nicht so leicht hinwegsehen. Ihr müßt Euch ändern, oder wir werden eines Tages auf verschiedenen Seiten kämpfen.~ [WAJAHE05]
+SAY UNHAPPY_BREAKING ~Ich ... Ich kann nicht glauben, wie sich die Dinge in dieser Gruppe verändert haben! Zum Wohl des Gleichgewichts in allen Dingen muß ich ... muß ich mich gegen Euch wenden.~ [WAJAHE06]
+SAY LEADER ~Wie ich schon mal erwähnt habe: Ihr hättet keine bessere Wahl treffen können.~ [WAJAHE07]
+SAY TIRED ~Ein wenig Ruhe wäre angebracht. Wir bringen uns ja noch selbst in Gefahr.~ [WAJAHE08]
+SAY BORED ~Es ist seltsam, dass wir hier einfach so herumstehen, wenn es doch so viele wichtige Dinge zu tun gibt.~ [WAJAHE09]
+SAY BATTLE_CRY1 ~Für die Gefallenen!~ [WAJAHE10]
+SAY BATTLE_CRY2 ~Stirb, Kreatur, und nähre die Erde!~ [WAJAHE11]
+SAY BATTLE_CRY3 ~Die Natur nimmt das Leben, das sie gab!~ [WAJAHE12]
+SAY DAMAGE ~~ [WAJAHE13]
+SAY DYING ~~ [WAJAHE14]
+SAY HURT ~Wenn ich der Gruppe weiterhin von Nutzen sein soll, benötige ich Heilung.~ [WAJAHE15]
+SAY AREA_FOREST ~Hier in der freien Natur kann ich meinen inneren Frieden finden. Leider ist dieser wunderbare Zustand nie von langer Dauer.~ [WAJAHE16]
+SAY AREA_CITY ~Städte gehen mir auf die Nerven. Wir sollten unseren Aufenthalt so kurz wie möglich gestalten.~ [WAJAHE17]
+SAY AREA_DUNGEON ~Die Natur könnte selbst hier Einzug finden, wenn der Ort nur gereinigt und das Gleichgewicht zurückgebracht würde.~ [WAJAHE18]
+SAY AREA_DAY ~Ich heiße jeden neuen Morgen willkommen. Einige haben nicht so viel Glück.~ [WAJAHE19]
+SAY AREA_NIGHT ~Die Natur hat viele Kinder, die die Dunkelheit ihr Zuhause nennen. Aber ich gehöre nicht dazu!~ [WAJAHE20]
+SAY SELECT_COMMON1 ~Die Dienerin der Natur ist bereit.~ [WAJAHE21]
+SAY SELECT_COMMON2 ~Ich warte auf Euren Befehl.~ [WAJAHE22]
+SAY SELECT_COMMON3 ~Ja?~ [WAJAHE23]
+SAY SELECT_COMMON4 ~Ich bin bereit.~ [WAJAHE24]
+SAY SELECT_COMMON5 ~Wurde aber auch Zeit.~ [WAJAHE25]
+SAY SELECT_COMMON6 ~Sprecht frei heraus.~ [WAJAHE26]
+SAY SELECT_ACTION1 ~Schon erledigt.~ [WAJAHE27]
+SAY SELECT_ACTION2 ~Aber gerne.~ [WAJAHE28]
+SAY SELECT_ACTION3 ~Schon unterwegs.~ [WAJAHE29]
+SAY SELECT_ACTION4 ~Hätte ich auch gemacht.~ [WAJAHE30]
+SAY SELECT_ACTION5 ~Wenn es von Nutzen ist ...~ [WAJAHE31]
+SAY SELECT_ACTION6 ~Ganz meine Meinung.~ [WAJAHE32]
+SAY SELECT_ACTION7 ~Wie Ihr wollt.~ [WAJAHE33]
+SAY INTERACTION1 #-1
+SAY INTERACTION2 #-1
+SAY INTERACTION3 #-1
+SAY INTERACTION4 #-1
+SAY INTERACTION5 #-1
+SAY INSULT #-1
+SAY 0x158 #-1
+SAY COMPLIMENT1 #-1
+SAY REACT_TO_DIE_GENERAL #-1
+SAY REACT_TO_DIE_SPECIFIC #-1
+SAY RESPONSE_TO_INSULT1 #-1
+SAY RESPONSE_TO_INSULT2 #-1
+SAY RESPONSE_TO_INSULT3 #-1
+SAY SELECT_RARE1 ~Das ist alles?~ [WAJAHE34]
+SAY SELECT_RARE2 ~Nun gut, wenn Ihr denkt, dass das wirklich gut ist. So viele Taten bereuen wir später.~ [WAJAHE35]
+SAY CRITICAL_HIT ~Die Rache ist mein!~ [WAJAHE36]
+SAY CRITICAL_MISS ~Ugh!~ [WAJAHE37]
+SAY TARGET_IMMUNE ~Meine Waffe hat keine Wirkung!~ [WAJAHE38]
+SAY INVENTORY_FULL ~Ich trage ohnehin schon genug mit mir herum. Ihr müsst das vom Boden auflesen.~ [WAJAHE39]
+SAY EXISTANCE2 ~Meine Konzentration wurde unterbrochen. Das Netz der Magie hat sich aufgelöst.~ [WAJAHE40]
 
 LAF HANDLE_AUDIO
   STR_VAR
