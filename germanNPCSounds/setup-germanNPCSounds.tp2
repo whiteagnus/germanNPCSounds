@@ -214,46 +214,60 @@ COPY_EXISTING ~E32.cre~ ~override~
 			  ~MINSC6.cre~ ~override~
 			  ~TTMINSC.cre~ ~override~
 			  //~minsc7.cre~ ~override~
-SAY MORALE "Verzweifelt nicht! Ich werde Euch ermutigen, indem ich einfach vorstürme!" [MINSC02]
-SAY HAPPY "Wir sind allesamt Helden, Ihr, Boo und ich! Hamster und Waldläufer auf der ganzen Welt: Frohlocket! (quiek)" [MINSC03]
-SAY UNHAPPY_ANNOYED "Das darf so nicht weitergehen! Nehmt den stechenden Blick meines Hamsters zur Kenntnis und ändert Euch!" [MINSC04]
-SAY UNHAPPY_SERIOUS "Das ist nicht richtig. Unsere Vorgehensweise muss sich ändern, oder ich muss mit einem kräftigen Schlag voller Tugend nachhelfen." [MINSC05]
-SAY UNHAPPY_BREAKING_POINT "Boo hält das einfach nicht mehr länger aus!" [MINSC06]
-SAY LEADER "Minsk wird mit seiner Klinge und mit seinem festen Tritt die Führung übernehmen! Boo wird sich um die Details kümmern." [MINSC07]
-SAY TIRED "Wir müssen bald ruhen. Boo ist schon hamstermüde." [MINSC08]
-SAY BORED "Boo wird unruhig. Er braucht Bewegung, oder er wird uns alle an ziemlich exotischen Stellen beißen." [MINSC09]
-SAY BATTLE_CRY1 "Die Augen, Boo! Kratz ihnen die Augen aus! RAAAARGHH! (quiek)" [MINSC10]
-SAY BATTLE_CRY2 "Spürt die Hand der Gerechtigkeit!" [MINSC11]
-SAY BATTLE_CRY3 "Das macht Spaß, was Boo? (quiek)" [MINSC12]
-SAY DAMAGE "" [MINSC13]
-SAY DYING "" [MINSC14]
-SAY HURT "Ihr müsst mir rasch helfen. Boo ist noch zu jung, um mich zu rächen." [MINSC15]
-SAY AREA_FOREST "Der Wald liebt Boo." [MINSC16]
-SAY AREA_CITY "In Städten wimmelt es immer von Bösem und von Verfall. Lasst uns hier einmal rumstöbern und sehen, was wir aufscheuchen." [MINSC17]
-SAY AREA_DUNGEON "Ha, ein stinkendes Loch des Bösen! Bedeck deine Nase, Boo, denn wir werden keine Spalte unerforscht lassen. (quiek)" [MINSC18]
-SAY AREA_DAY "Ahh, ich bevorzuge das Licht des Tages. Das Böse soll die Gerechtigkeit, die ich ihm zuteilwerden lasse, bei hellem Licht sehen." [MINSC19]
-SAY AREA_NIGHT "Seltsame und böse Dinge poltern durch die Nacht, aber keiner poltert heftiger als Minsk!" [MINSC20]
-SAY SELECT_COMMON1 "Ihr zeigt mir wohin, und ich schlage zu!" [MINSC21]
-SAY SELECT_COMMON2 "Schwerter statt Wörter!" [MINSC22]
-SAY SELECT_COMMON3 "Minsk und Boo, allzeit bereit!" [MINSC23]
-SAY SELECT_COMMON4 "Jeder Hamster hat mal seinen großen Tag." [MINSC24]
-SAY SELECT_COMMON5 "Bewaffnet, Verstand geschärft, bereit loszuschlagen." [MINSC25]
-SAY SELECT_COMMON6 "Boo sagt: „Ja bitte?“" [MINSC26]
-SAY SELECT_ACTION1 "Wo immer Minsk auch hingeht, macht das Böse einen Schritt zur Seite." [MINSC27]
-SAY SELECT_ACTION2 "Stürz dich in mein Schwert, Böses, solange du noch kannst! Denn Minsk wird dir keinen solch einfachen Tod gönnen." [MINSC28]
-SAY SELECT_ACTION3 "Mit dem Schwert zu leben, heißt gut und lang zu leben." [MINSC29]
-SAY SELECT_ACTION4 "Tretet zur Seite, hier kommt die Gerechtigkeit!" [MINSC30]
-SAY SELECT_ACTION5 "Siehst du die Schlacht, Boo? Lauf, Boo, lauf! (quiek)" [MINSC31]
-SAY SELECT_ACTION6 "Macht Platz, Bösewichter! Eiliger Held auf dem Durchmarsch!" [MINSC32]
-SAY SELECT_ACTION7 "Hah! Tritte in den Hintern für die eine Sache!" [MINSC33]
-SAY SELECT_RARE1 "Je größer sie sind, desto härter schlage ich zu." [MINSC34]
-SAY SELECT_RARE2 "Erklärt meinem Hamster bloß nicht, wie man Eier aussaugt." [MINSC35]
-SAY CRITICAL_HIT "Ah, hay!" [MINSC36]
-SAY CRITICAL_MISS "Oh, das sollte nicht sein." [MINSC37]
-SAY TARGET_IMMUNE "Was denn, keine Wirkung? Gebt mir ein größeres Schwert!" [MINSC38]
-SAY INVENTORY_FULL "Ich habe das, was ich tragen sollte, fallen lassen müssen. Leider hab ich nur zwei Arme und keinen Platz mehr im Rucksack." [MINSC39]
-SAY EXISTANCE1 "Keiner wird mich sehen, aber es könnte sein, dass mich mein Schlachtruf enttarnt." [MINSC41]
-SAY EXISTANCE2 "Ich habe Boo mit meinem Körper gedeckt und konnte daher meinen Zauber nicht wirken. Aber es tut mir nicht leid!" [MINSC42]
+SAY INITIAL_MEETING "Boo sagt: 'Wie bitte?'" [WAMINS01]
+SAY MORALE "Verzweifelt nicht! Ich werde Euch ermutigen, indem ich einfach vorstürme!" [WAMINS02]
+SAY HAPPY "Wir sind allesamt Helden, ihr, Boo und ich! Hamster und Waldläufer auf der ganzen Welt: Frohlocket!" [WAMINS03]
+SAY UNHAPPY_ANNOYED "Das darf so nicht weitergehen! Nehmt den stechenden Blick meines Hamsters zur Kenntnis und ändert euch!" [WAMINS04]
+SAY UNHAPPY_SERIOUS "Das ist nicht richtig. Unsere Vorgehensweise muß sich ändern, oder ich muß mit einem kräftigen Schlag voller Tugend nachhelfen." [WAMINS05]
+SAY UNHAPPY_BREAKING "Boo hält das einfach nicht mehr länger aus!" [WAMINS06]
+SAY LEADER "Minsk wird mit seiner Klinge und mit seinem festen Tritt die Führung übernehmen! Boo wird sich um die Details kümmern." [WAMINS07]
+SAY TIRED "Wir müssen bald ruhen. Boo ist schon hamstermüde." [WAMINS08]
+SAY BORED "Boo wird unruhig. Er braucht Bewegung, oder er wird uns alle an ziemlich exotischen Stellen beißen." [WAMINS09]
+SAY BATTLE_CRY1 "Die Augen, Boo! KRATZ IHNEN DIE AUGEN AUS!!! GRAAAARGHH!" [WAMINS10]
+SAY BATTLE_CRY2 "Spürt die Hand der Gerechtigkeit!" [WAMINS11]
+SAY BATTLE_CRY3 "Das macht Spaß, was Boo?" [WAMINS12]
+SAY DAMAGE "" [WAMINS13]
+SAY DYING "" [WAMINS14]
+SAY HURT "Ihr müßt mir rasch helfen. Boo ist noch zu jung, um mich zu rächen." [WAMINS15]
+SAY AREA_FOREST "Der Wald liebt Boo." [WAMINS16]
+SAY AREA_CITY "In Städten wimmelt es immer vor Bösem und vor Verfall. Laßt uns hier einmal rumstöbern und sehen, was wir aufscheuchen." [WAMINS17]
+SAY AREA_DUNGEON "Hah, ein stinkendes Loch des Bösen. Bedecke deine Nase, Boo, denn wir werden keine Spalte unerforscht lassen." [WAMINS18]
+SAY AREA_DAY "Ahh, ich bevorzuge das Licht des Tages. Das Böse soll nur die Gerechtigkeit bei hellem Licht sehen, die ich ihm zuteil werden lassen." [WAMINS19]
+SAY AREA_NIGHT "Seltsame und böse Dinge poltern durch die Nacht, aber keiner poltert heftiger als Minsk." [WAMINS20]
+SAY SELECT_COMMON1 "Ihr zeigt mir, wohin, und ich schlage zu!" [WAMINS21]
+SAY SELECT_COMMON2 "Schwerter statt Wörter!" [WAMINS22]
+SAY SELECT_COMMON3 "Minsk und Boo, allzeit bereit!" [WAMINS23]
+SAY SELECT_COMMON4 "Jeder Hamster hat mal seinen großen Tag." [WAMINS24]
+SAY SELECT_COMMON5 "Bewaffnet, Verstand geschärft, bereit loszuschlagen." [WAMINS25]
+SAY SELECT_COMMON6 "Boo sagt: 'Wie bitte?'" [WAMINS26]
+SAY SELECT_ACTION1 "Wo immer Minsk auch hingeht, macht das Böse einen Schritt zur Seite." [WAMINS27]
+SAY SELECT_ACTION2 "Stürz dich in mein Schwert, Böses, solange du noch kannst! Denn Minsk wird dir keinen solch einfachen Tod gönnen." [WAMINS28]
+SAY SELECT_ACTION3 "Mit dem Schwert zu leben, heißt gut und lang zu leben." [WAMINS29]
+SAY SELECT_ACTION4 "Tretet zur Seite, hier kommt die Gerechtigkeit!" [WAMINS30]
+SAY SELECT_ACTION5 "Siehst du die Schlacht, Boo? Lauf,  Boo! Lauf!" [WAMINS31]
+SAY SELECT_ACTION6 "Macht Platz, Bösewichter! Eiliger Held auf dem Durchmarsch!" [WAMINS32]
+SAY SELECT_ACTION7 "Ha, Tritte in den Hintern für die eine Sache!" [WAMINS33]
+SAY INTERACTION1 #-1
+SAY INTERACTION2 #-1
+SAY INTERACTION3 #-1
+SAY INTERACTION4 #-1
+SAY INTERACTION5 #-1
+SAY INSULT #-1
+SAY 0x158 #-1
+SAY COMPLIMENT1 #-1
+SAY REACT_TO_DIE_GENERAL #-1
+SAY REACT_TO_DIE_SPECIFIC #-1
+SAY RESPONSE_TO_INSULT1 #-1
+SAY RESPONSE_TO_INSULT2 #-1
+SAY RESPONSE_TO_INSULT3 #-1
+SAY SELECT_RARE1 "Je größer sie sind, desto härter schlage ich zu." [WAMINS34]
+SAY SELECT_RARE2 "Erklärt meinem Hamster BLOSS nicht, wie man Eier aussaugt." [WAMINS35]
+SAY CRITICAL_HIT "Ah hay!!" [WAMINS36]
+SAY CRITICAL_MISS "Das sollte nicht sein." [WAMINS37]
+SAY TARGET_IMMUNE "Was denn, keine Wirkung? Gebt mir ein größeres Schwert!" [WAMINS38]
+SAY INVENTORY_FULL "Ich habe das, was ich tragen sollte, fallen lassen müssen. Leider hab ich nur zwei Arme und keinen Platz mehr im Rucksack." [WAMINS39]
+SAY EXISTANCE1 "Keiner wird mich sehen, aber es könnte sein, dass mich mein Schlachtruf enttarnt." [WAMINS40]
+SAY EXISTANCE2 "Ich habe Boo mit meinem Körper gedeckt und konnte daher meinen Zauber nicht wirken. Aber es tut mir nicht Leid!" [WAMINS41]
 
 LAF HANDLE_AUDIO
   STR_VAR
