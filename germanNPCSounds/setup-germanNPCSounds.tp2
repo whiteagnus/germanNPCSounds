@@ -1,5 +1,7 @@
 BACKUP ~germanNPCSounds/BACKUP~
-AUTHOR ~me~
+AUTHOR ~WA~
+
+VERSION ~v1.0.20160520~
 
 BEGIN ~Edwin~
 REQUIRE_PREDICATE GAME_IS ~bgee~ ~Dieser Mod ist nur für BGEE~
